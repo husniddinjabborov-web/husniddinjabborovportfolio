@@ -111,6 +111,8 @@ section h2 {
     display: grid;
     grid-template-columns: auto auto;
     gap: 10px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     position: absolute;
     bottom: 0;
@@ -201,4 +203,5 @@ footer a {
     }
 
 }
+
 /*  */
